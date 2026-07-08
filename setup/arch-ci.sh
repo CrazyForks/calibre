@@ -18,4 +18,4 @@ useradd -m ci
 chown -R ci:users $GITHUB_WORKSPACE
 
 pip install --break-system-packages types-lxml
-npm install rapydscript-ng
+npm install -g rapydscript-ng
