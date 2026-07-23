@@ -2,17 +2,16 @@
 # License: GPL v3 Copyright: 2018, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-import traceback
-from elementmaker import E
-from gettext import gettext as _, install
-
 import initialize  # noqa: unused-import
+import traceback
 from ajax import absolute_path, ajax, workaround_qt_bug
 from book_list.globals import get_session_data, set_session_data
 from book_list.library_data import library_data
 from book_list.theme import css_for_variables, get_color
 from date import format_date
 from dom import get_widget_css, set_css
+from elementmaker import E
+from gettext import gettext as _, install
 from modals import create_modal_container
 from qt import from_python, to_python
 from read_book.db import new_book

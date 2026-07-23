@@ -3,7 +3,6 @@
 from __python__ import bound_methods, hash_literals
 
 from gettext import gettext as _
-
 from read_book.cfi import create_cfi_cmp, cfi_sort_key
 from read_book.globals import ui_operations
 

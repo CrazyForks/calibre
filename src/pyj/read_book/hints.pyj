@@ -2,11 +2,10 @@
 # License: GPL v3 Copyright: 2020, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.theme import get_color
 from dom import clear
+from elementmaker import E
+from gettext import gettext as _
 from read_book.shortcuts import shortcut_for_key_event
 
 

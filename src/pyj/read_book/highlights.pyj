@@ -2,14 +2,13 @@
 # License: GPL v3 Copyright: 2020, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _, ngettext
-
 from ajax import encode_query
 from book_list.globals import get_current_query, get_session_data
 from book_list.theme import get_color
 from complete import create_search_bar
 from dom import add_extra_css, build_rule, clear, svgicon, unique_id
+from elementmaker import E
+from gettext import gettext as _, ngettext
 from modals import (
     create_custom_dialog, error_dialog, get_text_dialog, question_dialog,
     warning_dialog

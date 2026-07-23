@@ -2,9 +2,6 @@
 # License: GPL v3 Copyright: 2018, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax_send_file
 from book_list.library_data import force_refresh_on_next_load, loaded_books_query
 from book_list.router import back
@@ -12,9 +9,11 @@ from book_list.theme import get_color
 from book_list.top_bar import create_top_bar
 from book_list.ui import query_as_href, show_panel
 from dom import add_extra_css, build_rule, clear, ensure_id
+from elementmaker import E
 from file_uploads import (
     update_status_widget, upload_files_widget, upload_status_widget
 )
+from gettext import gettext as _
 from session import get_interface_data
 from utils import safe_set_inner_html
 from widgets import create_button, enable_escape_key

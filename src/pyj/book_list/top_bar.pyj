@@ -2,14 +2,13 @@
 # License: GPL v3 Copyright: 2015, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.constants import book_list_container_id, cs_top_bar_host_id
 from book_list.router import back
 from book_list.router import home
 from book_list.theme import get_color, get_font_size
 from dom import set_css, clear, create_keyframes, build_rule, svgicon, add_extra_css
+from elementmaker import E
+from gettext import gettext as _
 from session import get_interface_data
 from utils import parse_url_params
 

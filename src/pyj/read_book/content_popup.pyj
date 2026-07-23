@@ -2,10 +2,9 @@
 # License: GPL v3 Copyright: 2017, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
+from dom import add_extra_css, build_rule, clear, svgicon
 from elementmaker import E
 from gettext import gettext as _
-
-from dom import add_extra_css, build_rule, clear, svgicon
 from iframe_comm import create_wrapped_iframe
 from read_book.globals import runtime, ui_operations, is_dark_theme
 from read_book.resources import load_resources

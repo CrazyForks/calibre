@@ -2,11 +2,10 @@
 # License: GPL v3 Copyright: 2016, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.globals import get_session_data
 from dom import add_extra_css, build_rule, element, unique_id
+from elementmaker import E
+from gettext import gettext as _
 from read_book.globals import runtime
 from read_book.prefs.utils import create_button_box
 from session import session_defaults

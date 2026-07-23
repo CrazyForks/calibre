@@ -2,10 +2,9 @@
 # License: GPL v3 Copyright: 2016, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals, bound_methods
 
-from elementmaker import E
-
 from book_list.theme import get_color
 from dom import set_css, ensure_id, clear, build_rule, add_extra_css
+from elementmaker import E
 
 MODAL_Z_INDEX = 1000
 POPUP_Z_INDEX = MODAL_Z_INDEX + 1

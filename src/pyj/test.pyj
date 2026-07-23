@@ -2,8 +2,6 @@
 # License: GPL v3 Copyright: 2020, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-import traceback
-
 import initialize  # noqa: unused-import
 import read_book.test_cfi  # noqa: unused-import
 import test_annotations  # noqa: unused-import
@@ -17,6 +15,7 @@ import test_sidebar  # noqa: unused-import
 import test_theme  # noqa: unused-import
 import test_utils  # noqa: unused-import
 import test_viewer_appearance  # noqa: unused-import
+import traceback
 from testing import registered_tests, reset_dom
 
 

@@ -2,10 +2,9 @@
 # License: GPL v3 Copyright: 2015, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals
 
-from elementmaker import E
-
 from book_list.theme import get_font_size, get_color
 from dom import build_rule, svgicon, add_extra_css, clear
+from elementmaker import E
 
 CLASS_NAME = 'generic-items-list'
 

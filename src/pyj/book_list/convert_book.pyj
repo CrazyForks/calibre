@@ -2,9 +2,6 @@
 # License: GPL v3 Copyright: 2018, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax, ajax_send
 from book_list.book_details import report_load_failure
 from book_list.conversion_widgets import create_option_group, entry_points, commit_changes
@@ -13,6 +10,8 @@ from book_list.router import back, open_book, report_a_load_failure
 from book_list.top_bar import create_top_bar, set_title
 from book_list.ui import set_panel_handler
 from dom import add_extra_css, build_rule, clear
+from elementmaker import E
+from gettext import gettext as _
 from modals import error_dialog
 from utils import conditional_timeout, human_readable, parse_url_params
 from widgets import create_button, enable_escape_key

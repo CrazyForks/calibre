@@ -3,7 +3,6 @@
 from __python__ import hash_literals
 
 from elementmaker import E
-
 from read_book.globals import runtime
 
 

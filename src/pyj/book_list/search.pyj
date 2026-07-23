@@ -2,9 +2,6 @@
 # License: GPL v3 Copyright: 2015, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax, absolute_path
 from book_list.globals import get_session_data
 from book_list.library_data import library_data, current_library_id, current_virtual_library
@@ -15,6 +12,8 @@ from book_list.top_bar import create_top_bar
 from book_list.ui import show_panel
 from complete import create_search_bar
 from dom import clear, set_css, build_rule, svgicon, add_extra_css, ensure_id
+from elementmaker import E
+from gettext import gettext as _
 from modals import show_modal, create_custom_dialog
 from session import get_interface_data
 from utils import rating_to_stars, safe_set_inner_html, is_ios

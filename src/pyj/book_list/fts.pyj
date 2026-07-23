@@ -2,9 +2,6 @@
 # License: GPL v3 Copyright: 2022, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax, ajax_send
 from book_list.cover_grid import THUMBNAIL_MAX_HEIGHT, THUMBNAIL_MAX_WIDTH
 from book_list.globals import get_current_query, get_session_data
@@ -15,6 +12,8 @@ from book_list.ui import query_as_href, set_panel_handler
 from book_list.views import create_image
 from complete import create_search_bar
 from dom import add_extra_css, clear, set_css, svgicon
+from elementmaker import E
+from gettext import gettext as _
 from modals import create_custom_dialog, error_dialog, info_dialog, question_dialog
 from widgets import create_spinner
 

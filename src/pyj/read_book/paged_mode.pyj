@@ -24,9 +24,8 @@
 from __python__ import hash_literals, bound_methods
 
 import traceback
-from elementmaker import E
-
 from dom import set_important_css
+from elementmaker import E
 from read_book.cfi import (
     at_current as cfi_at_current, at_point as cfi_at_point,
     scroll_to as cfi_scroll_to

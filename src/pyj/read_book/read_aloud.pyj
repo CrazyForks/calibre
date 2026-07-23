@@ -2,13 +2,12 @@
 # License: GPL v3 Copyright: 2020, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.globals import get_session_data
 from book_list.globals import get_session_data
 from book_list.theme import get_color
 from dom import clear, svgicon, unique_id
+from elementmaker import E
+from gettext import gettext as _
 from read_book.globals import ui_operations
 from read_book.highlights import ICON_SIZE
 from read_book.selection_bar import BUTTON_MARGIN, get_margins, map_to_iframe_coords

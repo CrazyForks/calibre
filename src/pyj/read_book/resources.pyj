@@ -2,10 +2,9 @@
 # License: GPL v3 Copyright: 2016, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals
 
+from dom import clear, remove_all_attributes
 from elementmaker import E
 from encodings import base64decode, utf8_decode
-
-from dom import clear, remove_all_attributes
 from read_book.globals import runtime, ui_operations
 from read_book.settings import opts
 

@@ -1,9 +1,6 @@
 # vim:fileencoding=utf-8
 # License: GPL v3 Copyright: 2026, Kovid Goyal <kovid at kovidgoyal.net>
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.globals import get_session_data
 from book_list.library_data import browse_fields, current_library_id, current_virtual_library
 from book_list.router import home
@@ -15,6 +12,8 @@ from book_list.saved_virtual_libraries import (
 from book_list.saved_virtual_library_dialog import show_saved_virtual_library_dialog
 from book_list.ui import show_panel
 from dom import add_extra_css, clear, svgicon
+from elementmaker import E
+from gettext import gettext as _
 from utils import parse_url_params
 
 

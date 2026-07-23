@@ -3,9 +3,6 @@
 from __python__ import hash_literals, bound_methods
 
 import traceback
-from elementmaker import E
-from gettext import gettext as _, install
-
 from ajax import ajax
 from book_list.book_details import set_panel_handlers as book_details_init
 from book_list.constants import book_list_container_id, read_book_container_id, cs_top_bar_host_id, INIT_ENDPOINT
@@ -26,6 +23,8 @@ from book_list.ui import apply_url_state as book_list_mode_handler
 from book_list.ui_settings import set_panel_handlers as ui_settings_init
 from book_list.views import set_panel_handlers as views_init
 from dom import get_widget_css
+from elementmaker import E
+from gettext import gettext as _, install
 from modals import create_modal_container, error_dialog
 from popups import install_event_filters
 from read_book.ui import ReadUI

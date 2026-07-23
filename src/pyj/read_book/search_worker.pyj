@@ -2,10 +2,9 @@
 # License: GPL v3 Copyright: 2021, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from traceback import format_exception
-
 from read_book.db import DB
 from read_book.resources import text_from_serialized_html
+from traceback import format_exception
 
 GET_SPINE_FAILED = 1
 CONNECT_FAILED = 2

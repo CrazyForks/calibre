@@ -2,13 +2,11 @@
 # License: GPL v3 Copyright: 2020, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-from uuid import short_uuid
-
 from book_list.globals import get_session_data
 from book_list.theme import get_color
 from dom import change_icon_image, clear, svgicon, unique_id
+from elementmaker import E
+from gettext import gettext as _
 from modals import create_custom_dialog, error_dialog, question_dialog
 from read_book.globals import runtime, ui_operations
 from read_book.highlights import (
@@ -18,6 +16,7 @@ from read_book.highlights import (
 from read_book.shortcuts import shortcut_for_key_event
 from read_book.toc import family_for_toc_node, get_toc_nodes_bordering_spine_item
 from utils import parse_url_params
+from uuid import short_uuid
 from widgets import create_button
 
 DRAG_SCROLL_ZONE_MIN_HEIGHT = 10

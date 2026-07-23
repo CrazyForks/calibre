@@ -10,11 +10,10 @@
 
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.theme import get_color
 from dom import change_icon_image, svgicon
+from elementmaker import E
+from gettext import gettext as _
 from modals import error_dialog
 from read_book.globals import ui_operations
 from read_book.highlights import ICON_SIZE

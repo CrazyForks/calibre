@@ -2,14 +2,13 @@
 # License: GPL v3 Copyright: 2026
 from __python__ import hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.saved_virtual_libraries import (
     DEFAULT_SAVED_VIRTUAL_LIBRARY_ICON, normalize_saved_virtual_library_icon
 )
 from book_list.theme import get_color
 from dom import add_extra_css, build_rule, unique_id
+from elementmaker import E
+from gettext import gettext as _
 
 
 # (emoji stored in session, short description for picker tooltip / a11y)

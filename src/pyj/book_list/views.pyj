@@ -3,9 +3,6 @@
 from __python__ import hash_literals
 
 import traceback
-from elementmaker import E
-from gettext import gettext as _, ngettext
-
 from ajax import ajax_send
 from book_list.add import add_books_panel
 from book_list.cover_grid import (
@@ -39,6 +36,8 @@ from book_list.search import (
 from book_list.top_bar import add_button, create_top_bar, set_title_tooltip
 from book_list.ui import query_as_href, set_panel_handler, show_panel
 from dom import add_extra_css, build_rule, clear, ensure_id, set_css, svgicon
+from elementmaker import E
+from gettext import gettext as _, ngettext
 from modals import error_dialog
 from session import get_interface_data
 from utils import conditional_timeout, parse_url_params, safe_set_inner_html

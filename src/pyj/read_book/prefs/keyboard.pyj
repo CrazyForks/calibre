@@ -2,13 +2,12 @@
 # License: GPL v3 Copyright: 2016, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.globals import get_session_data
 from book_list.item_list import create_item, create_item_list
 from complete import create_search_bar
 from dom import clear, unique_id
+from elementmaker import E
+from gettext import gettext as _
 from read_book.shortcuts import (
     key_as_text, keyevent_as_shortcut, shortcut_differs, shortcuts_definition,
     shortcuts_group_desc

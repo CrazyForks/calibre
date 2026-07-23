@@ -2,15 +2,14 @@
 # License: GPL v3 Copyright: 2018, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax
 from book_list.add import write_access_error
 from book_list.library_data import book_after, force_refresh_on_next_load, remove_book
 from book_list.router import back
 from book_list.ui import show_panel
 from dom import clear
+from elementmaker import E
+from gettext import gettext as _
 from modals import create_custom_dialog
 from read_book.db import get_db
 from utils import safe_set_inner_html

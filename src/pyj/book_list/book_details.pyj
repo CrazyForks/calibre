@@ -3,9 +3,6 @@
 from __python__ import hash_literals
 
 import traceback
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax, ajax_send, encode_query_component
 from book_list.delete_book import refresh_after_delete, start_delete_book
 from book_list.globals import get_session_data
@@ -24,7 +21,9 @@ from book_list.ui import query_as_href, set_panel_handler, show_panel
 from book_list.views import search_query_for
 from date import format_date
 from dom import add_extra_css, build_rule, clear, ensure_id, svgicon, unique_id
+from elementmaker import E
 from file_uploads import update_status_widget, upload_files_widget, upload_status_widget
+from gettext import gettext as _
 from modals import create_custom_dialog, error_dialog, warning_dialog, question_dialog
 from read_book.touch import (
     copy_touch, install_handlers, interpret_single_gesture, touch_id, update_touch

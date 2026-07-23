@@ -2,13 +2,12 @@
 # License: GPL v3 Copyright: 2015, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax, ajax_send
 from book_list.globals import get_session_data
 from book_list.theme import get_color, get_font_size
 from dom import add_extra_css, build_rule, clear, set_css, svgicon, unique_id
+from elementmaker import E
+from gettext import gettext as _
 from popups import MODAL_Z_INDEX
 from utils import safe_set_inner_html
 from widgets import create_button

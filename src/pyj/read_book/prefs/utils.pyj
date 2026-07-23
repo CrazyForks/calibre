@@ -4,7 +4,6 @@ from __python__ import bound_methods, hash_literals
 
 from elementmaker import E
 from gettext import gettext as _
-
 from widgets import create_button
 
 

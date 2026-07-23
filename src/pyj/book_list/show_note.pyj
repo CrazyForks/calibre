@@ -2,9 +2,6 @@
 # License: GPL v3 Copyright: 2023, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax
 from book_list.comments_editor import (
     create_comments_editor, destroy_editor, focus_comments_editor, get_comments_html,
@@ -16,6 +13,8 @@ from book_list.library_data import book_metadata
 from book_list.router import back, home, show_note
 from book_list.top_bar import add_button, create_top_bar
 from book_list.ui import set_panel_handler
+from elementmaker import E
+from gettext import gettext as _
 from modals import ajax_send_progress_dialog, error_dialog
 from utils import parse_url_params, safe_set_inner_html, sandboxed_html
 

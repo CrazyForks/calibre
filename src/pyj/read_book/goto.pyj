@@ -3,12 +3,11 @@
 from __python__ import bound_methods, hash_literals
 
 import traceback
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import encode_query_component
 from book_list.item_list import build_list, create_item
 from dom import ensure_id, set_css
+from elementmaker import E
+from gettext import gettext as _
 from modals import error_dialog
 from read_book.globals import current_book, runtime, ui_operations
 from read_book.prefs.head_foot import format_pos

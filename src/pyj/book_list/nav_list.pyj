@@ -2,9 +2,6 @@
 # License: GPL v3 Copyright: 2026
 from __python__ import hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import ajax
 from book_list.globals import get_session_data
 from book_list.item_list import create_item, create_item_list
@@ -14,6 +11,8 @@ from book_list.theme import get_color
 from book_list.top_bar import create_top_bar
 from book_list.ui import set_panel_handler, show_panel
 from dom import add_extra_css, build_rule, clear, svgicon
+from elementmaker import E
+from gettext import gettext as _
 from session import get_interface_data
 from utils import parse_url_params
 from widgets import create_pager_widget, create_button

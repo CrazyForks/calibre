@@ -2,10 +2,6 @@
 # License: GPL v3 Copyright: 2016, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-from uuid import short_uuid
-
 from book_list.book_details import CLASS_NAME as BD_CLASS_NAME, render_metadata
 from book_list.globals import get_session_data
 from book_list.library_data import (
@@ -16,6 +12,8 @@ from book_list.theme import get_color
 from book_list.top_bar import create_top_bar
 from book_list.ui import query_as_href, show_panel
 from dom import clear, ensure_id, set_css, svgicon
+from elementmaker import E
+from gettext import gettext as _
 from modals import error_dialog, question_dialog
 from read_book.bookmarks import create_bookmarks_panel
 from read_book.chrome import apply_viewer_chrome_colors, viewer_chrome_colors
@@ -43,6 +41,7 @@ from utils import (
     default_context_menu_should_be_allowed, full_screen_element,
     full_screen_supported, is_ios, safe_set_inner_html
 )
+from uuid import short_uuid
 from widgets import create_button, create_spinner
 
 

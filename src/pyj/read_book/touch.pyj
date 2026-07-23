@@ -3,7 +3,6 @@
 from __python__ import bound_methods, hash_literals
 
 from gettext import gettext as _
-
 from read_book.globals import get_boss, ltr_page_progression, ui_operations
 from read_book.settings import opts
 from read_book.viewport import get_unit_size_in_pixels, scroll_viewport

@@ -2,10 +2,9 @@
 # License: GPL v3 Copyright: 2017, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from gettext import gettext as _
-
 from ajax import absolute_path, ajax
 from book_list.globals import get_session_data
+from gettext import gettext as _
 from lru_cache import LRUCache
 from session import get_interface_data
 from utils import parse_url_params

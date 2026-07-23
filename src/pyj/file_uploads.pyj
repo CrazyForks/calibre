@@ -2,10 +2,9 @@
 # License: GPL v3 Copyright: 2018, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
+from dom import ensure_id
 from elementmaker import E
 from gettext import gettext as _
-
-from dom import ensure_id
 from utils import human_readable, safe_set_inner_html
 
 

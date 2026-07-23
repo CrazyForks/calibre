@@ -2,9 +2,6 @@
 # License: GPL v3 Copyright: 2017, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _, ngettext
-
 from book_list.globals import get_db
 from book_list.library_data import library_data
 from book_list.router import home, open_book
@@ -12,6 +9,8 @@ from book_list.top_bar import add_button, create_top_bar
 from book_list.ui import set_panel_handler
 from book_list.views import DEFAULT_MODE, get_view_mode, setup_view_mode, populate_book_list_toolbar
 from dom import clear, ensure_id
+from elementmaker import E
+from gettext import gettext as _, ngettext
 from modals import create_custom_dialog, error_dialog
 from utils import conditional_timeout, safe_set_inner_html
 from widgets import create_button, enable_escape_key, create_pager_widget, create_search_widget

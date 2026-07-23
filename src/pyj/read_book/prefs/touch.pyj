@@ -2,12 +2,11 @@
 # License: GPL v3 Copyright: 2016, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.globals import get_session_data
 from dom import svgicon
 from dom import unique_id
+from elementmaker import E
+from gettext import gettext as _
 from read_book.gestures import (
     allowed_actions_for_flow_mode_drag, allowed_actions_for_flow_mode_flick,
     allowed_actions_for_paged_mode_swipe, allowed_actions_for_tap,

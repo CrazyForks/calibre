@@ -2,10 +2,9 @@
 # License: GPL v3 Copyright: 2015, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals
 
-from encodings import hexlify
-
 from ajax import encode_query
 from book_list.theme import get_font_family
+from encodings import hexlify
 
 
 is_ios = v'!!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)'

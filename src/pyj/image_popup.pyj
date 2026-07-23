@@ -2,11 +2,10 @@
 # License: GPL v3 Copyright: 2023, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from ajax import absolute_path
 from dom import add_extra_css, svgicon, unique_id
+from elementmaker import E
+from gettext import gettext as _
 from popups import MODAL_Z_INDEX
 from read_book.flow_mode import FlickAnimator
 from read_book.touch import TouchHandler, install_handlers

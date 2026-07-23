@@ -2,13 +2,12 @@
 # License: GPL v3 Copyright: 2016, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.globals import get_session_data
 from book_list.router import back
 from book_list.top_bar import create_top_bar
 from dom import clear, ensure_id, add_extra_css, build_rule
+from elementmaker import E
+from gettext import gettext as _
 from widgets import create_button, create_select
 
 pp_counter = 0

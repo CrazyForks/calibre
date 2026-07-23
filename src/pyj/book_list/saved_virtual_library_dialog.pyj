@@ -2,14 +2,13 @@
 # License: GPL v3 Copyright: 2026, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.library_data import all_virtual_libraries
 from book_list.saved_virtual_libraries import DEFAULT_SAVED_VIRTUAL_LIBRARY_ICON, normalize_saved_virtual_library_icon, saved_virtual_library_item
 from book_list.saved_virtual_library_icon_picker import create_saved_virtual_library_icon_picker
 from book_list.theme import get_color
 from dom import add_extra_css, clear
+from elementmaker import E
+from gettext import gettext as _
 from modals import create_custom_dialog
 from widgets import create_button
 

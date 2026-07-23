@@ -2,13 +2,12 @@
 # License: GPL v3 Copyright: 2018, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-from gettext import ngettext
-
 from book_list.globals import get_session_data
 from dom import clear, unique_id
 from dom import svgicon
+from elementmaker import E
+from gettext import gettext as _
+from gettext import ngettext
 from read_book.globals import current_book
 from read_book.prefs.utils import create_button_box
 from session import get_interface_data, session_defaults

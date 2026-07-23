@@ -3,13 +3,12 @@
 # globals: NodeFilter
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.details_list import sandbox_css, BORDER_RADIUS
 from book_list.library_data import library_data
 from date import format_date
 from dom import build_rule, clear, set_css, svgicon
+from elementmaker import E
+from gettext import gettext as _
 from session import get_interface_data
 from utils import fmt_sidx, safe_set_inner_html, sandboxed_html
 

@@ -2,16 +2,15 @@
 # License: GPL v3 Copyright: 2018, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-from uuid import short_uuid4
-
 from book_list.theme import color_scheme, get_color, get_color_as_rgba
 from dom import add_extra_css, build_rule, clear, ensure_id, svgicon
+from elementmaker import E
+from gettext import gettext as _
 from iframe_comm import IframeClient, create_wrapped_iframe
 from image_popup import fit_image
 from modals import create_custom_dialog
 from utils import html_escape
+from uuid import short_uuid4
 from widgets import create_button
 
 CLASS_NAME = 'comments-editor'

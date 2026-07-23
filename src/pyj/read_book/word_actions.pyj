@@ -2,12 +2,11 @@
 # License: GPL v3 Copyright: 2018, Kovid Goyal <kovid at kovidgoyal.net>
 from __python__ import bound_methods, hash_literals
 
-from elementmaker import E
-from gettext import gettext as _
-
 from book_list.globals import get_session_data
 from book_list.item_list import create_item, create_item_list
 from dom import clear, ensure_id
+from elementmaker import E
+from gettext import gettext as _
 from modals import error_dialog
 from read_book.globals import ui_operations
 from widgets import create_button
